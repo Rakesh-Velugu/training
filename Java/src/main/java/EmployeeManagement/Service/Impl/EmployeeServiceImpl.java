@@ -1,6 +1,6 @@
 package EmployeeManagement.Service.Impl;
 
-import EmployeeManagement.Employee;
+import EmployeeManagement.Domain.Employee;
 import EmployeeManagement.Exception.ResponseStatusException;
 import EmployeeManagement.Service.CommonMessagesService;
 import EmployeeManagement.Service.EmployeeService;

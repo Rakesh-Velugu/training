@@ -1,5 +1,6 @@
 package EmployeeManagement;
 
+import EmployeeManagement.Domain.Employee;
 import EmployeeManagement.Exception.ResponseStatusException;
 import EmployeeManagement.Service.CommonMessagesService;
 import EmployeeManagement.Service.EmployeeService;
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class EmployeeManagement {
 
     public static void main(String args[]) {
 

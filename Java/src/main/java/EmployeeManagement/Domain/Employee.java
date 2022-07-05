@@ -1,4 +1,4 @@
-package EmployeeManagement;
+package EmployeeManagement.Domain;
 
 public class Employee {
     private int id;
