@@ -24,10 +24,10 @@ public class EmployeeManagement {
 
         int control = 0; int id;
         Scanner scanner = new Scanner(System.in);
-        System.out.println(commonMessagesService.shoGreetings());
+        System.out.println(commonMessagesService.showGreetings());
 
         do {
-            System.out.println(commonMessagesService.shoOption());
+            System.out.println(commonMessagesService.showOptions());
             control = scanner.nextInt();
             switch (control) {
                 case 1 :

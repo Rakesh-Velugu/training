@@ -1,11 +1,11 @@
 package EmployeeManagement.Service;
 
 public interface CommonMessagesService {
-    String shoGreetings();
+    String showGreetings();
 
-    String shoOption();
+    String showOptions();
 
-    String shopUpdateOptions();
+    String showUpdateOptions();
 
-    String shopSearchOptions();
+    String showSearchOptions();
 }

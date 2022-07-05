@@ -43,7 +43,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         AtomicReference<Boolean> employeeFound = new AtomicReference<>();
         employeeFound.set(Boolean.FALSE);
         System.out.println("Please enter the employee filed to search");
-        System.out.println(commonMessagesService.shopSearchOptions());
+        System.out.println(commonMessagesService.showSearchOptions());
         int control = scanner.nextInt();
         if (employees.isEmpty()) {
             throw new ResponseStatusException("No Employees found");
@@ -143,7 +143,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         AtomicReference<Boolean> isUpdated = new AtomicReference<>();
         isUpdated.set(Boolean.FALSE);
         System.out.println("Please select field which you want to Update");
-        System.out.println(commonMessagesService.shopUpdateOptions());
+        System.out.println(commonMessagesService.showUpdateOptions());
         int control = scanner.nextInt();
         switch (control) {
             case 1: System.out.println("Please Enter Employee name");
